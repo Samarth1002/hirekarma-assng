@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.chat-cnt {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 150px;
+  border: 2px solid blanchedalmond;
+  background: #303c6c;
+  border-radius: 0px 20px 20px 0px;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+#maze-svg {
+  position: absolute;
+  top: 45px;
+}
+#home-svg {
+  position: absolute;
+  top: 160px;
+}
+
+#msg-svg {
+  position: absolute;
+  top: 241.87px;
+}
+
+#logout-svg {
+  position: absolute;
+  bottom: 30px;
+  left: 3rem;
+}
+
+#setting-svg {
+  position: absolute;
+  top: 331.25px;
+}
