@@ -11,6 +11,7 @@ import {
 } from "reactstrap";
 
 import { ImEqualizer } from "react-icons/im";
+import { IoSearchOutline } from "react-icons/io5";
 
 import NameData from "../Data/NameData";
 
@@ -32,7 +33,9 @@ const ChatPeople = () => {
         </div>
         <div>
           <InputGroup>
-            <InputGroupText>S-logo</InputGroupText>
+            <InputGroupText>
+              <IoSearchOutline />
+            </InputGroupText>
             <Input
               type="text"
               id="CP-search"
