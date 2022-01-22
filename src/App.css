@@ -76,6 +76,12 @@
   height: 45px;
   width: 45px;
 }
+.personal-img {
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+}
+
 .people-time {
   font-size: 12px;
 }
@@ -88,8 +94,14 @@
   justify-content: space-around;
   width: 100%;
 }
-.people-cnt-div {
+.people-cnt-div,
+.personal-info {
   display: flex;
+}
+
+.personal-info {
+  justify-content: center;
+  align-items: center;
 }
 
 .list-group {
@@ -102,8 +114,25 @@
   height: 75px;
 }
 
-.people-section-div{
+.people-section-div {
   height: 600px;
   margin: 1rem;
   padding: 1rem;
+}
+
+.personal-header {
+  background-color: rgba(48, 60, 108, 1);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.click-to-chat {
+  cursor: pointer;
+}
+
+.card-header {
+  background-color: rgba(48, 60, 108, 1);
+  border-top-left-radius: 1rem;
+  border-top-rig  ht-radius: 1rem;
 }

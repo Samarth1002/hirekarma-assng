@@ -15,13 +15,12 @@ import { IoSearchOutline } from "react-icons/io5";
 
 import NameData from "../Data/NameData";
 
-const ChatPeople = () => {
+const ChatPeople = ({ presonalChat }) => {
   const [searchPeople, setSearchPeople] = useState();
 
   return (
     <>
       <div className="chat-people">
-        {" "}
         <div className="CP-cnt">
           <div>Chat</div>
           <div>
@@ -49,7 +48,11 @@ const ChatPeople = () => {
         </div>
         <div className="people-section-div">
           {NameData.map((item, index) => (
-            <Row key={index} className="d-flex">
+            <Row
+              key={index}
+              className="d-flex click-to-chat"
+              onClick={() => presonalChat(item)}
+            >
               <ListGroup row="true">
                 <ListGroupItem row="true" width="300px" height="700px">
                   <div className="people-cnt-div">
