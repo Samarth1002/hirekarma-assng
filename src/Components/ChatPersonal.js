@@ -1,7 +1,9 @@
-import React from 'react';
+import React from "react";
 
 const ChatPersonal = () => {
-  return <div></div>;
+  return (<div
+  className="chat-personal"
+  ></div>);
 };
 
 export default ChatPersonal;

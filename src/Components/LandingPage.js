@@ -1,15 +1,18 @@
 import React from "react";
 import { Row, Col } from "reactstrap";
-import ChatPeople from "./ChatPeople";
+import ChatSection from "./ChatSection";
+import Sidebar from "./Sidebar";
 
 const LandingPage = () => {
   return (
     <div>
-      <Row>
-        <Col md="4">
-          <ChatPeople />
+      <Row className="m-0 p-0 ">
+        <Col md="1" className="m-0 p-0">
+          <Sidebar />
         </Col>
-        <Col md="8"></Col>
+        <Col md="10" className="mx-4">
+          <ChatSection />
+        </Col>
       </Row>
     </div>
   );

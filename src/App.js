@@ -9,13 +9,14 @@ import {
   NavLink,
   Link,
 } from "react-router-dom";
+import LandingPage from "./Components/LandingPage";
 
 function App() {
   return (
     <>
       <Router>
         <Routes>
-          <Route path="/" element={<Sidebar />} />
+          <Route path="/" element={<LandingPage />} />
           <Route path="/home" element={<Sidebar />} />
           <Route path="/message" element={<Sidebar />} />
           <Route path="/setting" element={<Sidebar />} />
